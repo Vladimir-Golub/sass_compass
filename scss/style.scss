@@ -1,0 +1,7 @@
+@import '_test';
+@import "normalize";
+
+.module {
+  @include box-sizing(border-box);
+  background: orange;
+}
